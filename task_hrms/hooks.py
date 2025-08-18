@@ -8,6 +8,20 @@ app_license = "MIT"
 # Includes in <head>
 # ------------------
 
+# fixtures
+fixtures = [
+	{
+        "dt": "Workflow",
+        "filters": [
+                [
+                    "name",
+                    "in",
+                    ["Approval Layer Of Leave Request"]
+                ]
+  ]
+    }
+]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/task_hrms/css/task_hrms.css"
 # app_include_js = "/assets/task_hrms/js/task_hrms.js"
