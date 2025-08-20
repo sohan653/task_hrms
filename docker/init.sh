@@ -91,12 +91,12 @@ else
     bench --site hrms.localhost install-app task_hrms
 fi
 
-# Always set these configurations (in case they changed)
+
 bench --site hrms.localhost set-config developer_mode 1
 bench --site hrms.localhost clear-cache
 bench use hrms.localhost
 
-# Create Procfile if it doesn't exist
+
 if [ ! -f "Procfile" ]; then
     echo "Creating Procfile..."
     cat > Procfile << EOF
@@ -108,6 +108,6 @@ else
     echo "Procfile already exists. Skipping creation."
 fi
 
-echo "Starting Frappe/ERPNext server..."
-# Start the web server directly without Procfile
+echo "Starting  server..."
+
 exec bench serve --port 8000
