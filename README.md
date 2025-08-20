@@ -33,10 +33,10 @@ This repository (`task_hrms`) implements a **Leave & Attendance approval workflo
     cd task_hrms
 
     # Download the docker-compose file
-    wget -O docker-compose.yml https://raw.githubusercontent.com/sohan653/task_hrms/main/docker/docker-compose.yaml
+    wget -O docker-compose.yml https://raw.githubusercontent.com/sohan653/task_hrms/invento/docker/docker-compose.yaml
 
     # Download the setup script
-    wget -O init.sh https://raw.githubusercontent.com/sohan653/task_hrms/main/docker/init.sh
+    wget -O init.sh https://raw.githubusercontent.com/sohan653/task_hrms/invento/docker/init.sh
     ```
 
 2.  Run the container and daemonize it:
